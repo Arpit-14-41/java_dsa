@@ -44,16 +44,17 @@ public class deposit {
 		d1.display();d1.cal_amt();
 		
 		System.out.println("2nd:-");
-		deposit d2= new deposit(3000,10,2);
+		Deposit d2= new Deposit(3000,10,2);
 		d2.display();d2.cal_amt();
 		
 		System.out.println("3rd:-");
-		deposit d3= new deposit(1200,5,4);
+		Deposit d3= new Deposit(1200,5,4);
 		d3.display();d3.cal_amt();
 		
 		System.out.println("4th:-");
-		deposit d4= new deposit(11230,2,5);
+		Deposit d4= new Deposit(11230,2,5);
 		d4.display();d4.cal_amt();
 	}
 
 }
+
